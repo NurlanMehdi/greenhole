@@ -1,227 +1,168 @@
 @extends('user.master')
 @section('content')
+    <main class="creasoft-wrap">
+        <section class="hero-area">
+            <div class="hero-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero-content">
+                                <h1>Creative & Minimal<span>It Agency.</span></h1>
+                                <p>Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla porttitor. ol Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero. Donec nec dui luctus, pellentesque lacus sed, mollis leo.</p>
 
-    <ul class="l-main-content main-content">
-        <li class="l-section section section--is-active">
-            <div class="intro">
-                <div class="intro--banner">
-                    <h1>Your next<br>interactive<br>experience</h1>
-                    <button class="cta">Hire Us
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                        <span class="btn-background"></span>
-                    </button>
-                    <img src="{{asset('assets/img/introduction-visual.png')}}" alt="Welcome">
+                            </div>
+                        </div>
+                        <div class="col-lg-6"></div>
+                    </div>
                 </div>
-                <div class="intro--options">
-                    <a href="#0">
-                        <h3>Metiew &amp; Smith</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.
+            </div>
+        </section>
+{{--        <section class="services-area sec-mar">--}}
+{{--            <div class="container">--}}
+{{--                <div class="title-wrap wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">--}}
+{{--                    <div class="sec-title">--}}
+{{--                        <span>Our Solutions</span>--}}
+{{--                        <h2>Services</h2>--}}
+{{--                        <p>Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla porttitor. on Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero.</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="swiper services-slider">--}}
+{{--                    <div class="swiper-wrapper">--}}
+{{--                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">--}}
+{{--                            <div class="single-service">--}}
+{{--                                <span>01</span>--}}
+{{--                                <div class="icon">--}}
+{{--                                    <img src="assets/img/icons/service-icon-1.png" alt>--}}
+{{--                                </div>--}}
+{{--                                <h4>Web Design</h4>--}}
+{{--                                <p>Integer purus odio, placerat nec rhoncu in, ullamcorper nec dolor.</p>--}}
+{{--                                <div class="read-btn">--}}
+{{--                                    <a href="service-details.html">Read More</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">--}}
+{{--                            <div class="single-service">--}}
+{{--                                <span>02</span>--}}
+{{--                                <div class="icon">--}}
+{{--                                    <img src="assets/img/icons/service-icon-2.png" alt>--}}
+{{--                                </div>--}}
+{{--                                <h4>UI/UX Design</h4>--}}
+{{--                                <p>Integer purus odio, placerat nec rhoncu in, ullamcorper nec dolor.</p>--}}
+{{--                                <div class="read-btn">--}}
+{{--                                    <a href="service-details.html">Read More</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">--}}
+{{--                            <div class="single-service">--}}
+{{--                                <span>03</span>--}}
+{{--                                <div class="icon">--}}
+{{--                                    <img src="assets/img/icons/service-icon-3.png" alt>--}}
+{{--                                </div>--}}
+{{--                                <h4>Software Development</h4>--}}
+{{--                                <p>Integer purus odio, placerat nec rhoncu in, ullamcorper nec dolor.</p>--}}
+{{--                                <div class="read-btn">--}}
+{{--                                    <a href="service-details.html">Read More</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="swiper-pagination d-md-none d-md-block"></div>--}}
+{{--                </div>--}}
+{{--                <div class="swiper-button-next"></div>--}}
+{{--                <div class="swiper-button-prev"></div>--}}
+{{--            </div>--}}
+{{--        </section>--}}
+{{--        <section class="about-area sec-mar-bottom">--}}
+{{--            <div class="container">--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col-lg-6 or-2 wow animate fadeIn" data-wow-delay="200ms" data-wow-duration="1500ms">--}}
+{{--                        <div class="sec-title layout2">--}}
+{{--                            <span>Get To Know</span>--}}
+{{--                            <h2>About Us</h2>--}}
+{{--                        </div>--}}
+{{--                        <div class="about-left">--}}
+{{--                            <h3>We do design, code & develop Software finally launch.</h3>--}}
+{{--                            <p>Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. Class onlin aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only himenaeos. Praesent nec neque at dolor venenatis consectetur eu quis ex. the Donec lacinia placerat felis non aliquam.</p>--}}
 
-                        </p>
-                    </a>
-                    <a href="#0">
-                        <h3>Fantasy interactive</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                    </a>
-                    <a href="#0">
-                        <h3>Paul &amp; shark</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                    </a>
-                </div>
-            </div>
-        </li>
-        <li class="l-section section">
-            <div class="work">
-                <h2>Selected work</h2>
-                <div class="work--lockup">
-                    <ul class="slider">
-                        <li class="slider--item slider--item-left">
-                            <a href="#0">
-                                <div class="slider--item-image">
-                                    <img src="{{asset('assets/img/work-victory.jpg')}}" alt="Victory">
-                                </div>
-                                <p class="slider--item-title">Victory</p>
-                                <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                            </a>
-                        </li>
-                        <li class="slider--item slider--item-center">
-                            <a href="#0">
-                                <div class="slider--item-image">
-                                    <img src="{{asset('assets/img/work-metiew-smith.jpg')}}" alt="Metiew and Smith">
-                                </div>
-                                <p class="slider--item-title">Metiew &amp; Smith</p>
-                                <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                            </a>
-                        </li>
-                        <li class="slider--item slider--item-right">
-                            <a href="#0">
-                                <div class="slider--item-image">
-                                    <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
-                                </div>
-                                <p class="slider--item-title">Alex Nowak</p>
-                                <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="slider--prev">
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                             viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                      <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
-                  </g>
-                  </svg>
-                    </div>
-                    <div class="slider--next">
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="l-section section">
-            <div class="about">
-                <div class="about--banner">
-                    <h2>We<br>believe in<br>passionate<br>people</h2>
-                    <a href="#0">Career
-                        <span>
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                    </g>
-                    </svg>
-                  </span>
-                    </a>
-                    <img src="assets/img/about-visual.png" alt="About Us">
-                </div>
-                <div class="about--options">
-                    <a href="#0">
-                        <h3>Winners</h3>
-                    </a>
-                    <a href="#0">
-                        <h3>Philosophy</h3>
-                    </a>
-                    <a href="#0">
-                        <h3>History</h3>
-                    </a>
-                </div>
-            </div>
-        </li>
-        <li class="l-section section">
-            <div class="contact">
-                <div class="contact--lockup">
-                    <div class="modal">
-                        <div class="modal--information">
-                            <p>Pawia 5, 31-154 Kraków, Poland</p>
-                            <a href="mailto:ouremail@gmail.com">ouremail@gmail.com</a>
-                            <a href="tel:+148126287560">+48 12 628 75 60</a>
-                        </div>
-                        <ul class="modal--options">
-                            <li><a href="#0">Bēhance</a></li>
-                            <li><a href="#0">dribbble</a></li>
-                            <li><a href="mailto:ouremail@gmail.com">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="l-section section">
-            <div class="hire">
-                <h2>You want us to do</h2>
-                <!-- checkout formspree.io for easy form setup -->
-                <form class="work-request">
-                    <div class="work-request--options">
-                  <span class="options-a">
-                    <input id="opt-1" type="checkbox" value="app design">
-                    <label for="opt-1">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                           viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      App Design
-                    </label>
-                    <input id="opt-2" type="checkbox" value="graphic design">
-                    <label for="opt-2">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                           viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Graphic Design
-                    </label>
-                    <input id="opt-3" type="checkbox" value="motion design">
-                    <label for="opt-3">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                           viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Motion Design
-                    </label>
-                  </span>
-                        <span class="options-b">
-                    <input id="opt-4" type="checkbox" value="ux design">
-                    <label for="opt-4">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                           viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      UX Design
-                    </label>
-                    <input id="opt-5" type="checkbox" value="webdesign">
-                    <label for="opt-5">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                           viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Webdesign
-                    </label>
-                    <input id="opt-6" type="checkbox" value="marketing">
-                    <label for="opt-6">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                           viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Marketing
-                    </label>
-                  </span>
-                    </div>
-                    <div class="work-request--information">
-                        <div class="information-name">
-                            <input id="name" type="text" spellcheck="false">
-                            <label for="name">Name</label>
-                        </div>
-                        <div class="information-email">
-                            <input id="email" type="email" spellcheck="false">
-                            <label for="email">Email</label>
-                        </div>
-                    </div>
-                    <input type="submit" value="Send Request">
-                </form>
-            </div>
-        </li>
-    </ul>
-    </div>
-    </div>
-    </div>
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-lg-6 or-1 wow animate fadeIn" data-wow-delay="200ms" data-wow-duration="1500ms">--}}
+{{--                        <div class="about-right">--}}
+{{--                            <div class="banner-1">--}}
+{{--                                <img src="assets/img/about-baner-1.jpg" alt>--}}
+{{--                            </div>--}}
+{{--                            <div class="banner-2">--}}
+{{--                                <img src="assets/img/about-baner-2.jpg" alt>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </section>--}}
+{{--        @include('user.banners.features')--}}
+{{--        <section class="project-area sec-mar">--}}
+{{--            <div class="container read-btn-container">--}}
+{{--                <div class="title-wrap">--}}
+{{--                    <div class="sec-title">--}}
+{{--                        <h2>Project</h2>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col-12">--}}
+{{--                        <ul class="isotope-menu">--}}
+{{--                            <li class="active" data-filter="*">All</li>--}}
+{{--                            <li data-filter=".ui">UI/UX</li>--}}
+{{--                            <li data-filter=".web">Web Design</li>--}}
+{{--                            <li data-filter=".developing">Developing</li>--}}
+{{--                            <li data-filter=".graphic">Graphic Design</li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="row gy-4  project-items">--}}
+{{--                    <div class="col-md-6 col-lg-6 single-item graphic web">--}}
+{{--                        <div class="single-blog">--}}
+{{--                            <div class="blog-thumb">--}}
+{{--                                <a href="blog-details.html"><img src="assets/img/projects/suppliergroup.png" alt></a>--}}
+
+{{--                            </div>--}}
+{{--                            <div class="blog-inner">--}}
+{{--                                <div class="author-date">--}}
+{{--                                    <a href="about.html#">By, Admin</a>--}}
+{{--                                    <a href="about.html#">22.02.2022</a>--}}
+{{--                                </div>--}}
+{{--                                <h4><a href="blog-details.html">Quisque malesuada sapien and Donec sed nunc.</a></h4>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-6 col-lg-6 single-item graphic ui" >--}}
+{{--                        <div class="single-blog">--}}
+{{--                            <div class="blog-thumb">--}}
+{{--                                <a href="blog-details.html"><img src="assets/img/projects/suppliergroup.png" alt></a>--}}
+
+{{--                            </div>--}}
+{{--                            <div class="blog-inner">--}}
+{{--                                <div class="author-date">--}}
+{{--                                    <a href="about.html#">By, Admin</a>--}}
+{{--                                    <a href="about.html#">22.02.2022</a>--}}
+{{--                                </div>--}}
+{{--                                <h4><a href="blog-details.html">Suspendisse pretium magna qu nisl egestas porttitor.</a></h4>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="read-btn">--}}
+{{--                    <a href="service-details.html">Read More</a>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </section>--}}
+{{--        @include('user.banners.partners')--}}
+{{--        @include('user.banners.pricingPlan')--}}
+
+
+{{--        @include('user.banners.about')--}}
+    </main>
+
 
 @endsection
